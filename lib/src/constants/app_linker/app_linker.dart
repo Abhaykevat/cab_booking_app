@@ -1,0 +1,9 @@
+export 'package:cab_booking_app/src/views/onboarding_screen/onboarding_controlller/onboarding_ccontroller.dart';
+export 'package:get/get.dart';
+export 'package:cab_booking_app/src/bindings/onboarding_binding.dart';
+export 'package:cab_booking_app/src/utils/routes/app_routes/app_routes.dart';
+export 'package:cab_booking_app/src/views/onboarding_screen/onboarding_screen.dart';
+export 'package:cab_booking_app/src/constants/app_strings_assets/app_strings_assets.dart';
+export 'package:flutter/material.dart';
+export 'package:cab_booking_app/src/constants/app_image_assets/app_image_assets.dart';
+export 'package:cab_booking_app/src/models/onboarding_model/onboarding_model.dart';
