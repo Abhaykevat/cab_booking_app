@@ -1,5 +1,4 @@
-
-
+import 'package:cab_booking_app/src/views/home_screen/home_screen/book_ride_screen/book_ride_screen.dart';
 import 'src/constants/app_linker/app_linker.dart';
 
 void main() {
@@ -14,9 +13,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'QUICK RYDE',
+      debugShowCheckedModeBanner: false,
       //initialRoute: '/splash',
       //initialBinding: SplashBinding(),
-      home: OnboardingScreen(), 
+      home:RideSheetDemo(), 
     );
   }
 }
