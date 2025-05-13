@@ -1,6 +1,4 @@
-
-
-
+import 'package:cab_booking_app/src/views/connecting_driver_bottom_sheet/connecting_to_driver.dart';
 
 import '../../../constants/app_linker/app_linker.dart';
 
@@ -34,7 +32,7 @@ class OnboardingController extends GetxController {
         curve: Curves.easeInOut,
       );
     } else {
-     
+      Get.off(ConnectingToDriverBottomSheet());
     }
   }
 

@@ -1,0 +1,2 @@
+C:/Users/waqas/StudioProjects/cab_booking_app/android/app/.cxx/Debug/152q66b3/x86/CMakeFiles/edit_cache.dir
+C:/Users/waqas/StudioProjects/cab_booking_app/android/app/.cxx/Debug/152q66b3/x86/CMakeFiles/rebuild_cache.dir
