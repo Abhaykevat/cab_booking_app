@@ -33,16 +33,16 @@ class _SignUpScreenState extends State<SignUpScreen> {
           padding: const EdgeInsets.all(20.0),
           child: ListView(
             children: [
-              Row(
-                children: [
-                  IconButton(
-                    icon: Icon(Icons.arrow_back),
-                    onPressed: () {},
-                  ),
-                  SizedBox(width: 8),
-                  Text('Back', style: TextStyle(fontSize: 16)),
-                ],
-              ),
+              // Row(
+              //   children: [
+              //     IconButton(
+              //       icon: Icon(Icons.arrow_back),
+              //       onPressed: () {},
+              //     ),
+              //     SizedBox(width: 8),
+              //     Text('Back', style: TextStyle(fontSize: 16)),
+              //   ],
+              // ),
               SizedBox(height: 20),
               Text('Sign up',
                   style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold)),
@@ -185,7 +185,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
               ElevatedButton(
                 onPressed: () {},
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xFFF6B200),
+                  backgroundColor:Colors.green,
                   padding: EdgeInsets.symmetric(vertical: 16),
                 ),
                 child: Text('Sign Up',
